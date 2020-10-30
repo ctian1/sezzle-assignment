@@ -1,0 +1,32 @@
+.calculator {
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+.calculation {
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+
+.calculation-formula,
+.calculation-result {
+    display: inline-block;
+    font-family: monospace;
+}
+
+.calculation-result {
+    overflow-wrap: anywhere;
+}
+
+.calc-input {
+    margin-top: 20px;
+}
+
+.calc-input input {
+    margin-right: 10px;
+}
+
+div.calculations {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
