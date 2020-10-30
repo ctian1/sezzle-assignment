@@ -2,7 +2,20 @@
 
 [demo](https://chris-sezzle-assignment.herokuapp.com)
 
-by Chris Tian
+## Supported expressions (all functions from python math)
+
+```python
+1 + 2 / 3 * 4
+sqrt(10)
+degrees(pi*2)
+pow(10,2)
+log(1000,10)
+sin(pi/2)
+10**2
+1 < 2
+[ a*2 for a in [1, 2, 3, 4] ]
+True and False
+```
 
 ## Instructions
 
