@@ -19,7 +19,17 @@ True and False
 
 ## Instructions
 
-simply deploy the server to heroku or:
+first, build the client
+
+```
+cd client
+npm i
+npm run build
+cd ..
+cp client/build/. server/static/
+```
+
+then simply start the server:
 
 ```
 cd server
@@ -27,4 +37,16 @@ python install -r requirements.txt
 python app.py
 ```
 
-you will need to change the socket.io URL in the client js
+or 
+
+deploy the server to heroku:
+
+```
+cd server
+heroku git:remote -a <heroku app name>
+git add .
+git commit -m "update"
+git push heroku master
+```
+
+you will also need to change the socket.io URL in the client js
